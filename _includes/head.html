@@ -6,7 +6,7 @@
     <meta name="robots" content="{% if page.noindex %}no{% endif %}index,follow">
     <meta name="description" content="{{ site.description | strip_html }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    {% if site.favicon_img %}<link rel="icon" href="{{ site.favicon_img_path }}" />{% endif %}
+    {% if site.favicon_img %}<link rel="icon" href="{{ site.favicon_img_path | relative_url }}" />{% endif %}
     <link rel="stylesheet" href="{{ "/assets/css/all.min.css" | relative_url }}">
     <link rel="stylesheet" href="{{ layout.css | relative_url }}">
 </head>

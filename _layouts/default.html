@@ -4,12 +4,12 @@ css: /assets/css/github-markdown.css
 ---
 <main class="markdown-body" aria-label="Content">
     <div class="row top">
-        <div class="col1"><span aria-hidden="true"><i class="fas fa-arrow-left"></i> <a href="/">Zurück zur Hauptseite</span></a></div>
+        <div class="col1"><span aria-hidden="true"><i class="fas fa-arrow-left"></i> <a href={{ "/" | relative_url }}>Zurück zur Hauptseite</span></a></div>
         <div class="col2">{{ site.name }}</div>
     </div>
     {{ content }}
     <div class="row bottom">
-        <div class="col1"><span aria-hidden="true"><i class="fas fa-arrow-left"></i> <a href="/">Zurück zur Hauptseite</span></a></div>
+        <div class="col1"><span aria-hidden="true"><i class="fas fa-arrow-left"></i> <a href={{ "/" | relative_url }}>Zurück zur Hauptseite</span></a></div>
         <div class="col2">{{ site.name }}</div>
     </div>
 </main>
