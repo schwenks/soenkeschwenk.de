@@ -66,9 +66,9 @@ Die Bereitstellung der vorgenannten personenbezogenen Daten ist weder gesetzlich
 
 Um die Sicherheit Ihrer Daten bei der Übertragung zu schützen, verwenden wir dem aktuellen Stand der Technik entsprechende Verschlüsselungsverfahren (z. B. SSL) über HTTPS.
 
-## Eingesetzte Hoster
+## Hosting
 
-Diese Website wird auf Servern von [Github Inc.](https://www.github.com)), 88 Colin P Kelly Jr St, San Francisco, CA 94107, USA gehostet. Beachten Sie daher auch die [GitHub Privacy Policy](https://help.github.com/articles/github-privacy-statement/).
+Diese Website wird auf Servern von [Github Inc.](https://www.github.com), 88 Colin P Kelly Jr St, San Francisco, CA 94107, USA gehostet. Beachten Sie daher auch die [GitHub Privacy Policy](https://help.github.com/articles/github-privacy-statement/).
 
 ## Änderung unserer Datenschutzbestimmungen
 
