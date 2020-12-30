@@ -1,0 +1,134 @@
+.content-body {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute; 
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0;
+}
+.content-body #fullscreen {
+    z-index: -999;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.content-body #avatar {
+    height: 180px;
+    border-radius: 100%;
+    border: 5px solid white;
+    margin-bottom: 40px;
+}
+.content-body h1 {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    font-size: 4em;
+    margin: -10px 0;
+}
+.content-body h3 {
+    color: white;
+    padding-bottom: 10px;
+    font-weight: thin;
+}
+.content-body h5 {
+    color: white;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 0.75em;
+    font-weight: normal;    
+}
+.content-body .content {
+    padding-top: 100px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.content-body ul {
+    list-style: none;
+    padding: 0;
+}
+.content-body li {
+    border-radius: 100%;
+    border: 2px solid white;
+    color: white;
+    margin: 8px;
+    display: inline-block;
+    list-style: none;
+    width: 65px;
+    height: 65px;
+}
+.content-body li:hover {
+    color: white;
+    text-decoration: none;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    transition: 500ms;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.content-body a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+.content-body .description {
+    display: none;
+}
+.content-body .footer {
+    font-size: 0.75em;
+}
+
+@media (max-width: 450px) {
+    .content-body ul {
+        text-align: center;
+    }
+    .content-body li {
+        border-radius: 0%;
+        border: none;
+        color: white;
+        margin: 8px;
+        display: block;
+        list-style: none;
+        margin: 10px 0px;
+        text-align: center;
+        height: auto;
+        width: auto;
+    }
+    .content-body li:hover {
+        background-color: none;
+        transition: none;
+    }
+    .content-body a {
+        text-align: justify;
+        border: 2px solid white;
+        border-radius: 5px;
+        color: white;
+        padding: 15px;
+        padding-left: 30px;
+        width: 70%;
+    }
+    .content-body a:hover {
+        -webkit-transition: 500ms;
+        -moz-transition: 500ms;
+        transition: 500ms;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        text-decoration: none;
+    }
+    .content-body .description {
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+        font-weight: normal;
+        display: inline-block;
+        color: white;
+        margin-left: 40px;
+    }
+    .content-body .content {
+        padding-top: 60px;
+    }
+}

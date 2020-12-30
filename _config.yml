@@ -1,0 +1,43 @@
+# Site settings
+lang: DE
+name: Sönke Schwenk
+subtitle: "Lernen. Jeden Tag."
+description: "Als Softwarearchitekt und Berater unterstütze ich Unternehmen bei der Entwicklung erfolgreicher Software.<br>Als Coach und Trainer helfe ich Dir und Deinen Kollegen, das Know-How sowie die Methoden der Softwarearchitektur und der agilen Softwareentwicklung nicht nur zu erlernen, sondern auch im Alltag einzusetzen."
+url: "https://www.soenkeschwenk.de"
+
+
+# Delete the lines you don't need
+# about 5 elements are recomended
+#github_username: schwenks
+twitter_username: SoenkeSchwenk
+linkedin_username: sönke-schwenk-b49a091a9
+xing_username: Soenke_Schwenk
+work_url: "https://www.imarqio.com"
+blog_url: "https://www.imarqio.com/blog/"
+email: javascript:linkTo_UnCryptMailto('nbjmup;ibmmpAtpfolftdixfol/ef');
+
+
+imprint: Impressum
+data-protection: Datenschutzerklärung
+
+
+avatar: yes
+#avatar_img_path: "imgs/avatar.jpg""
+# You can link to your GitHub image. That way it will get updated
+# automatically whenever you change your GitHub profile picture
+avatar_img_path: "https://avatars2.githubusercontent.com/u/33554240"
+
+
+front_img: yes
+front_img_path: "/assets/images/background.jpg"
+#front_img_path: "https://external.url/image.jpg"
+
+
+favicon_img: yes
+favicon_img_path: "/assets/images/favicon.ico"
+#favicon_img_path: "https://external.url/favicon.ico"
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty

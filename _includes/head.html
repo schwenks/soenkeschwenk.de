@@ -1,0 +1,12 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}</title>
+    <meta name="robots" content="{% if page.noindex %}no{% endif %}index,follow">
+    <meta name="description" content="{{ site.description | strip_html }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    {% if site.favicon_img %}<link rel="icon" href="{{ site.favicon_img_path }}" />{% endif %}
+    <link rel="stylesheet" href="{{ "/assets/css/all.min.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ layout.css | relative_url }}">
+</head>
